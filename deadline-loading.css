@@ -1,12 +1,12 @@
 /*
 Svg Projects
-Author: Jonathan Trancozo
+Author: Antony Emongoluk
 Language: HTML, CSS3 and SVG
 */
 
 html {
   font-size: 1em;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 html,
@@ -43,7 +43,6 @@ body {
   animation-iteration-count: infinite;
 }
 
-/* Death */
 #death-group {
   animation-name: walk;
   animation-timing-function: ease; 
@@ -53,7 +52,6 @@ body {
 
 #death-arm {
   animation: move-arm 3s ease infinite;
-  /* transform-origin: left center; */
   transform-origin: -60px 74px;
 }
 
@@ -61,8 +59,6 @@ body {
   animation: move-tool 3s ease infinite;
   transform-origin: -48px center;
 }
-
-/* Designer */
 
 #designer-arm-grop {
   animation: write 1.5s ease infinite;
@@ -107,8 +103,6 @@ body {
 .mask-white {
   right: 0;
 }
-
-/* Flames */
 
 #red-flame {
   opacity: 0;
@@ -221,8 +215,6 @@ body {
       transform: rotate(0);
   }
 }
-
-/* Design animations */
 
 @keyframes write {
   0% {
